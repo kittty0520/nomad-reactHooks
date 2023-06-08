@@ -1,4 +1,3 @@
-import './styles.css';
 import { useEffect, useState } from 'react';
 
 const useTitle = (initialTitle) => {

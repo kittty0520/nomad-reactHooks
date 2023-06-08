@@ -1,4 +1,3 @@
-import './styles.css';
 import { useState } from 'react';
 
 const useInput = (initialValue, validator) => {
