@@ -17,12 +17,4 @@ const useBeforeLeave = (onBefore) => {
 	if (typeof onBefore !== 'function') return;
 };
 
-export default function UseBeforeLeave() {
-	const begForLife = () => console.log("please don't leave");
-	useBeforeLeave(begForLife);
-	return (
-		<div className='App'>
-			<h1>Hello Hooks</h1>
-		</div>
-	);
-}
+export default useBeforeLeave;
