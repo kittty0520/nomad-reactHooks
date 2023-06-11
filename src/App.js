@@ -1,12 +1,8 @@
 import './App.css';
-import UseBeforeLeave from './hooks components/UseBeforeLeave';
+import useAxios from './hooks components/UseAxios';
 
 function App() {
-	return (
-		<div>
-			<UseBeforeLeave />
-		</div>
-	);
+	return <></>;
 }
 
 export default App;
